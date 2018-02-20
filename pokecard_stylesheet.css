@@ -1,0 +1,62 @@
+#card{
+      background-color: salmon;
+      height: 130mm;
+      width: 100mm;
+    }
+
+ #row1{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: 10px;
+      height: 10px;
+      color: navy;
+    }
+
+ #row2{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+ #red{
+      color:red;
+    }
+
+#dragon{
+      height: 40%;
+      text-align: center;
+
+    }
+#bigpic{
+      height:100%;
+      border: 6px solid yellow;
+      border-radius: 6px;
+    }
+#bottomcaption{
+  color: black;
+  background-color: yellow;
+  align-self: center;
+  width: 75%;
+
+}
+
+#burn{
+  color: purple;
+  font-weight: 20px;
+  float: left;
+  
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+#flames1:{
+  display:flex;
+  flex-direction: column;
+}
+
+
