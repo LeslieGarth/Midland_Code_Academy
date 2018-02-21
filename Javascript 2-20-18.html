@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Reviewing JS data types</title>
+	<style type="text/css"></style>
+	<script type="text/javascript">
+		//string
+		var favorite_soda = 'Diet Coke';
+		
+		// number
+		var books_read = 500;
+
+		//booolean
+		var hungry = true
+
+		//array
+		var books_weve_read = ["Pathfinder", "Halo", "Guiness Book of World Records" ];
+
+		var random_stuff = [" THIS IS RANDOM", 1337, false];
+
+		books_weve_read[1]
+		console.log( books_weve_read[1] );
+		console.log( "Hello there!");
+		console.log(hungry);
+
+		alert("LOOK AT ME");
+		alert( books_read);
+
+		//Objects 
+		var camera = {
+			maker:"Sony";
+			date: 2009;
+			attachments:["Handheld Grip", "External Audio", "Aux Power"]
+			owner:{
+				name: "Brock Ellis",
+				age: 29;
+				profession: "not a videographer"
+
+			}
+		}
+
+		console.log( "My camera was made in" + camera.date + "it's really old");
+		console.log( `My camera was made in ${camera.date} it's really old`);
+
+		
+
+	</script>
+	<!--  3 types of javascripts
+	 1.  internal
+	 2.  external
+	 3.  inline
+	 The reason we put javascript on the bottom of the page at the very end of the body, just before the closing body tag is so that it loads first, you have less cacheing, and it runs faster.  This all adds up to a more responsive site. -->
+
+	 <!-- 3 Data types in Javascript
+	 1.  String 
+	 	example: var variable name=variable value
+	 	var favorite_soda = 'Diet Coke';
+
+	 	You can end in single quotes or double quotes, just as long as they're teh same on both sides.
+
+	 	2.  Numbers
+	 	Do not require quotation mark.  Only need the ending semi-colon.  Your number can be a decimal or exponential. 
+
+	 	3.  Boolean
+		These are binary values.  True/False; Yes/No; 1/0  
+		If you put quotes around it, it becomes a string rather than a boolean value.  It will not do math operations.
+
+		4.  Arrays
+		Insert into brackets as shown above.  An array is literally a list of unordered things.  
+
+		To pull data from an array an array, enter the array name [index number]
+
+		Another way to pull data from an array is using console log as shown above
+
+		Another way to pull data out on array is using an alert.  If you use an alert, it will lock the screen up for the user until after the lert is responded to.
+
+		5.  Objects
+		Uses curly brackets.  
+		In the console you will have to type the object name followed by a period, and then  follow each period with the parameter you're trying to pull out.
+
+		In console:
+		camera.owner.profession 
+		will return the value 
+		"Not a videographer"
+
+		camera.attachments[2]
+		will return the value
+		"Aux Power"
+
+
+	
+
+	-->
+</head>
+<body>
+
+</body>
+</html>
